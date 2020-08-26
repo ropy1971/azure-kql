@@ -1,0 +1,6 @@
+AzureDiagnostics
+| where Category == "AzureFirewallNetworkRule"
+| parse msg_s with Protocol " request from " SourceIP ":" SourcePortInt:int " to " TargetIP ":" TargetPortInt:int *
+| parse msg_s with * ". Action: " Action1a
+| where SourceIP == ""
+| where TargetIP == ""
