@@ -1,15 +1,18 @@
-# azure-kql
 
-This repository is containing all resources concerning KQL queries.
+# README.md
 
-# Status
+## introduction
+
+## status
 
 [PUBLIC]
 
-# Folders organization
+## folders organization
 
-# Comments
+## comments
 
-# License
+## license
 
-# Last update: 2020.08.26
+Check the license file.
+
+## last update: 2021.06.22
